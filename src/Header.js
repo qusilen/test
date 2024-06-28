@@ -53,11 +53,13 @@ function Header() {
           </div>
         </Link>
         
+        <Link to='/caterpieprime'>
+  <div className="header__option">
+    <span className="header__optionLineOne">Caterpie</span>
+    <span className="header__optionLineTwo">Prime</span>
+  </div>
+</Link>
 
-        <div className="header__option">
-          <span className="header__optionLineOne">Caterpie</span>
-          <span className="header__optionLineTwo">Prime</span>
-        </div>
         <Link to='/onerilen'>
         <div className="header__option">
           <span className="header__optionLineOne">Önerilen </span>
@@ -67,6 +69,12 @@ function Header() {
         <Link to='/indirim'>
         <div className="header__option">
           <span className="header__optionLineOne">İndirimli</span>
+          <span className="header__optionLineTwo">Ürünler</span>
+        </div>
+        </Link>
+        <Link to='/Favorites'>
+        <div className="header__option">
+          <span className="header__optionLineOne">Favori</span>
           <span className="header__optionLineTwo">Ürünler</span>
         </div>
         </Link>
